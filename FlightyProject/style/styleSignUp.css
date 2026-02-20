@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* background-image: url("images/backgroundImage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    padding: 20px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #605dec;
+    margin-left: 40px;
+}
+
+.links a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #605dec;
+    font-size: 16px;
+}
+
+.account-btn {
+    padding: 7px 18px;
+    background: #605dec;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Main container */
+.containerBackground {
+    background-image: url("../assets/WorldMap.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.title {
+   
+    text-align: center;
+    color: #605dec;
+    margin-bottom: 40px;
+}
+
+/* Form layout */
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form div {
+    width: 45%;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #605dec;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+}
+
+/* Buttons */
+.book-btn {
+    display: block;
+    margin: 40px auto 0;
+    padding: 10px 30px;
+    background: #605dec;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Table */
+.flight-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.flight-table th {
+    background: #b8b7f0;
+    color: black;
+}
+
+.flight-table th, .flight-table td {
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: center;
+}
+
+.delete-btn {
+    background: #888;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.update-btn {
+    background: #605dec;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.login_title{
+    text-align: center;
+    color: #605dec;
+    margin-bottom: 40px;
+
+}
+
+.SignUp_btn{
+     padding: 7px 18px;
+    background: #605dec;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+.formImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-left: 10px;
+}
+
+.formImage input{
+    background-color: transparent;
+}
+
+
+.LoginForm input {
+    
+    width: 350px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid ;
+    border-radius: 0%;
+    outline: none;
+    margin: 10px;
+    
+}
+
+.image img { 
+  width: 350px;
+  
+}
+.login_btn{
+    display: block;
+    margin-left: 260px;
+    padding: 10px 30px;
+    background: #605dec;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    
+}
+.SignUpForm,.SignUpForm2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.SignUpForm input{
+   
+    border: none;
+    border-bottom: 1px solid ;
+    border-radius: 0%;
+    outline: none;
+   
+    
+}
+.SignUpForm2 input{
+     
+    border: none;
+    border-bottom: 1px solid ;
+    border-radius: 0%;
+    outline: none;
+    
+    
+}
+.image2 img{
+width: 350px;
+
+}
+.Sign_btn{
+    display: block;
+    padding: 10px 30px;
+    background: #605dec;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.formButton{
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-bottom: -30px;
+}
+.gender{
+    display: flex;
+   
+}
+.Update_btn{
+    
+    margin-left: 400px;
+    padding: 10px 30px;
+    background: #605dec;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: -500px;
+    
+
+} 
+.Logout_btn{
+    background: #666;
+    margin-left: 100px;
+    padding: 10px 30px;
+    background: #605dec;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: -500px;
+   
+}

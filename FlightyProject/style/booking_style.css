@@ -1,0 +1,175 @@
+/* style.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    padding: 20px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #605dec;
+    margin-left: 40px;
+}
+
+.links a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #605dec;
+    font-size: 16px;
+}
+
+.account-btn {
+    padding: 7px 18px;
+    background: #605dec;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Flash messages */
+.flash {
+    padding: 12px 18px;
+    margin: 15px auto;
+    width: 60%;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Different flash message types */
+.flash-success {
+    background-color: #d4f8d4;
+    color: #207227;
+    border: 1px solid #92d992;
+}
+
+.flash-error {
+    background-color: #f8d4d4;
+    color: #a31818;
+    border: 1px solid #e39e9e;
+}
+
+.flash-warning {
+    background-color: #fff2cd;
+    color: #8a6d1c;
+    border: 1px solid #e6d68a;
+}
+
+.flash-info {
+    background-color: #d7e8ff;
+    color: #1c4c82;
+    border: 1px solid #9bc2f7;
+}
+
+
+/* Main container */
+.containerBackground {
+    background-image: url("../assets/WorldMap.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    color: #605dec;
+    margin-bottom: 40px;
+}
+
+/* Form layout */
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form div {
+    width: 45%;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #605dec;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+}
+
+/* Buttons */
+.book-btn {
+    display: block;
+    margin: 40px auto 0;
+    padding: 10px 30px;
+    background: #605dec;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Table */
+.flight-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.flight-table th {
+    background: #b8b7f0;
+    color: black;
+}
+
+.flight-table th, .flight-table td {
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: center;
+}
+
+.delete-btn {
+    background: #888;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.update-btn {
+    background: #605dec;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+a.update-btn {
+    text-decoration: none;
+}

@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+div.img {
+    background-image: url("../assets/WorldMap.png");
+    /* path to your image */
+    background-size: 200vh
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* keeps div of logo away from div of nav-links*/
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Flash messages */
+.flash {
+    padding: 12px 18px;
+    margin: 15px auto;
+    width: 60%;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Different flash message types */
+.flash-success {
+    background-color: #d4f8d4;
+    color: #207227;
+    border: 1px solid #92d992;
+}
+
+.flash-error {
+    background-color: #f8d4d4;
+    color: #a31818;
+    border: 1px solid #e39e9e;
+}
+
+.flash-warning {
+    background-color: #fff2cd;
+    color: #8a6d1c;
+    border: 1px solid #e6d68a;
+}
+
+.flash-info {
+    background-color: #d7e8ff;
+    color: #1c4c82;
+    border: 1px solid #9bc2f7;
+}
+
+.logo {
+    color: #605dec;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #605dec;
+    font-size: 16px;
+    margin-right: 22px;
+
+}
+
+a.signup-btn,
+a.Account-btn {
+    border: 1px solid;
+    background-color: #605dec;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    /* to be rounded */
+}
+
+a.nav-graycolor {
+    color: #7c8db0;
+}
+
+div.to-center {
+    display: flex;
+    /* must use it to use( justify-content: center;) */
+    justify-content: center;
+}
+
+input.AllFlights-btn,
+a.Book-btn {
+    border: 1px solid;
+    background-color: #5479f7;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    /* to be rounded */
+    margin-top: 80px;
+}
+
+/* a.Book-btn {
+    margin: 30px;
+    background-color: #605dec;
+    text-decoration: none;
+} */
+
+a.Book-btn {
+    background-color: #605dec;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    border: none;
+    margin: 5px;
+    display: inline-block;
+}
+
+p.or-dashed {
+    color: #7c8db0;
+}
+
+.Search {
+    color: #7c8db0;
+    padding: 10px;
+}
+
+.search-btn {
+    color: white;
+    background-color: #605dec;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 20px;
+}
+
+
+table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+    font-size: 17px;
+}
+
+th {
+    padding: 10px 80px;
+    background-color: #b8b7f0;
+    margin: auto;
+}
+
+td {
+    margin: auto;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.flights-tbl {
+    margin-top: 20px;
+}
+
+.flights-tbl-admin {
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+/* Manage Flight Page */
+
+.manage-h {
+    color: #605dec;
+    display: flex;
+    justify-content: center;
+}
+
+.manage-content {
+    display: flex;
+    justify-content: space-between;
+    color: #605dec;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.content-l,
+.content-R {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.content-R>div:first-child {
+    margin-top: 75px;
+}
+
+.manage-content input:not(.manage-search) {
+    border: none;
+    border-bottom: 2px solid #7c8db0;
+    background-color: transparent;
+    padding: 5px 0;
+    font-size: 16px;
+    outline: none;
+}
+
+.manage-content input:focus {
+    border-bottom-color: #5479f7;
+}
+
+.manage-search {
+    background-color: #605dec;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 8px;
+}
+
+.manage-btn {
+    border: 1px solid;
+    background-color: #605dec;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.error-msg {
+    color: red;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.sd-select {
+    background-color: #c6c5f3;
+    padding: 5px;
+}
