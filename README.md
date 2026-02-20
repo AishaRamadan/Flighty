@@ -35,31 +35,6 @@ The system also includes an admin panel to manage flights.
 
 ---
 
-## 📂 Project Structure
-Flighty/
-│
-├── Connection/
-│ └── db-connection.php
-│
-├── style/
-│ └── CSS files
-│
-├── assets/
-│ └── images
-│
-├── login.php
-├── signUp.php
-├── MainPageUser.php
-├── MainPageAdmin.php
-├── accountUser.php
-├── manageFlight.php
-├── booked.php
-
----
-
-
----
-
 ## 🗄 Database
 
 The system uses a MySQL database with the following main tables:
